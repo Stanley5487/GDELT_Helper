@@ -3,9 +3,7 @@ A user-friendly **GUI application for downloading, filtering, and exporting GDEL
 Designed for researchers who need efficient access to GDELT’s large-scale event dataset without writing code.
 
 > **Note:**  
-> The current GUI interface is in **Traditional Chinese**,  
-> but the layout is intuitive (mode selection, folder selection, year range, start, stop),  
-> and can be operated easily by non-Chinese users.
+> The current GUI interface is in **Traditional Chinese**, but the layout is intuitive (mode selection, folder selection, year range, start, stop), and can be operated easily by non-Chinese users.
 
 ---
 
@@ -18,7 +16,7 @@ Designed for researchers who need efficient access to GDELT’s large-scale even
   - [Data Processing Mode](#2-data-processing-mode)
   - [Notification Settings](#3-notification-settings)
 - [Installation & Usage](#installation--usage)
-- [Data Source & Citation](#data-source--citation)
+- [Data Source](#data-source)
 - [License](#license)
 - [Author](#author)
 
@@ -133,11 +131,8 @@ Main functions:
      For a comprehensive list of ISO3 country codes, see the official **CAMEO Conflict and Mediation Event Observations Event and Actor Codebook (pp. 168)**:  
      http://data.gdeltproject.org/documentation/CAMEO.Manual.1.1b3.pdf
      
-   > **Note:**  
-   > GDELT does not include event records for certain ISO3 countries.  
-   > For example, **Slovenia (SVN)** does not appear at all in the original GDELT raw files.  
-   > This absence reflects the underlying GDELT dataset (i.e., no recorded events for that country),  
-   > not a limitation or error of this application.
+> **Note:**  
+> GDELT does not include event records for certain ISO3 countries. For example, **Slovenia (SVN)** does not appear at all in the original GDELT raw files. This absence reflects the underlying GDELT dataset (e.g., no recorded events for that country), not a limitation or error of this application.
 
 4. **Year Range Filtering**  
    Specify start year and end year.  
@@ -205,31 +200,29 @@ python main.py
 
 ---
 
-## Data Source & Citation
+## Data Source
 This tool downloads and processes data from:
 
-The GDELT Project — Global Database of Events, Language, and Tone
-https://www.gdeltproject.org/
+The GDELT Project — Global Database of Events, Language, and Tone  
+https://www.gdeltproject.org/  
 
-If you use this tool or GDELT data in academic work, please cite:
-
-The GDELT Project. Global Database of Events, Language, and Tone (GDELT).
-
-This application is an independent third-party tool and is
-not affiliated with or endorsed by The GDELT Project.
+This application is an independent third-party tool and is not affiliated with or endorsed by The GDELT Project.  
 
 ---
 
 ## License
 
 Released under the MIT License.
+
 You may modify or distribute under the terms of this license.
 
 ---
 
 ## Author
-Hong Zih-Chun (洪子淳)
-Graduate Institute of East Asian Studies  
+Hong Zih-Chun (洪子淳) 
+
+Graduate Institute of East Asian Studies
+
 National Chengchi University (NCCU), Taiwan
 
 ---
