@@ -214,8 +214,6 @@ This application is an independent third-party tool and is not affiliated with o
 
 Released under the MIT License.
 
-You may modify or distribute under the terms of this license.
-
 ---
 
 ## Author
